@@ -360,9 +360,9 @@ MulticopterPositionControl::MulticopterPositionControl() :
 	_params_handles.tilt_max_air	= param_find("MPC_TILTMAX_AIR");
 	_params_handles.land_speed	= param_find("MPC_LAND_SPEED");
 	_params_handles.tilt_max_land	= param_find("MPC_TILTMAX_LND");
-	_params_handles.man_yaw_max = param_find("MC_MAN_R_MAX");
-	_params_handles.man_yaw_max = param_find("MC_MAN_P_MAX");
-	_params_handles.man_yaw_max = param_find("MC_MAN_Y_MAX");
+	_params_handles.man_yaw_max = param_find("MPC_MAN_R_MAX");
+	_params_handles.man_yaw_max = param_find("MPC_MAN_P_MAX");
+	_params_handles.man_yaw_max = param_find("MPC_MAN_Y_MAX");
 	_params_handles.mc_att_yaw_p = param_find("MC_YAW_P");
 
 	/* fetch initial parameter values */
